@@ -6,6 +6,11 @@
         <%= gravatar_for @user %>
         <%= @user.name %>
       </h1>
+      <p>Now is <%= Time.now =%></p>
+      <ul>
+        <li>User created: <%= @user.created_at %></li>
+        <li>User updated <%= @user.updated_at %></li>
+      </ul>
     </section>
   </aside>
 </div>
