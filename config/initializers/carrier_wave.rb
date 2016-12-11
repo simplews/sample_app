@@ -3,9 +3,8 @@ if Rails.env.production?
     config.fog_credentials = {
       # Configuration for Amazon S3
       :provider              => 'AWS',
-      #:region => ENV['eu-central-1'],
-      :aws_access_key_id     => ENV['AKIAIRU2F7JSBF46ZGLQ'],
-      :aws_secret_access_key => ENV['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']
+      :aws_access_key_id     => ENV['AKIAJNVBY5E36TP5GY6Q'],
+      :aws_secret_access_key => ENV['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']
     }
     config.fog_directory     =  ENV['herokutestforme']
   end
